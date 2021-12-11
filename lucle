@@ -83,3 +83,13 @@ end)
 Section:NewButton("Tp Full Metal Island", "", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3867.31640625, -184.07151794434, -3277.8449707031)
 end)
+ local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+ 
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "This script has been edited by Anbelucle";
+    Text = "you are dog";
+    Duration = "5";
+    Callback = NotificationBindable;
+})
