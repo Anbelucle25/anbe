@@ -88,8 +88,8 @@ NotificationBindable.OnInvoke = callback
  
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "This script has been edited by Anbelucle";
-    Text = "you are dog";
+    Title = "Edited by Anbelucle";
+    Text = "You are Gay";
     Duration = "5";
     Callback = NotificationBindable;
 })
