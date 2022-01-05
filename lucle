@@ -2,9 +2,6 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("Create by Anbe", "BloodTheme")
  oneMilFaves={"1milfaves"} function
 RedeemCode(a)spawn(function()for b,c in pairs(a)do spawn(function()game:GetService("ReplicatedStorage").Remote.RedeemCode:InvokeServer(c)end)end end)end;RedeemCode(oneMilFaves) 
-2K22={"2K22"} function
-RedeemCode(a)spawn(function()for b,c in pairs(a)do spawn(function()game:GetService("ReplicatedStorage").Remote.RedeemCode:InvokeServer(c)end)end end)end;RedeemCode(2K22) 
-
  
 --Anime Fighter
  
