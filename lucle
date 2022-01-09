@@ -9,7 +9,7 @@ local Tab = Window:NewTab("Teleport")
 local Section = Tab:NewSection("Teleport Map")
  
 Section:NewButton("defense", "", function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-63.18212890625, -184.17771911621, -4167.3227539063)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2022,-181,5603)
 end)
 
  local NotificationBindable = Instance.new("BindableFunction")
