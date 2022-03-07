@@ -13,7 +13,7 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2022,-1
 end)
 
 Section:NewButton("defense map 24", "", function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2022,-181,5603)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1922,-188,-5578)
 end)
 
  local NotificationBindable = Instance.new("BindableFunction")
