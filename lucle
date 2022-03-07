@@ -8,7 +8,11 @@ RedeemCode(a)spawn(function()for b,c in pairs(a)do spawn(function()game:GetServi
 local Tab = Window:NewTab("Teleport")
 local Section = Tab:NewSection("Teleport Map")
  
-Section:NewButton("defense", "", function()
+Section:NewButton("defense map 20", "", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2022,-181,5603)
+end)
+
+Section:NewButton("defense map 24", "", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2022,-181,5603)
 end)
 
